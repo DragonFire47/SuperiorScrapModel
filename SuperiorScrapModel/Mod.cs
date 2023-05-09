@@ -17,13 +17,13 @@ namespace SuperiorScrapModel
 
         public override string Version => "1.0.0";
 
-        public override string Author => "Dragon";
+        public override string Author => "Dragon, GrimWolf";
 
         public override string Name => "SuperiorScrapModel";
 
         public override string HarmonyIdentifier()
         {
-            return $"{Author}.{Name}";
+            return $"Dragon.{Name}";
         }
     }
 }
